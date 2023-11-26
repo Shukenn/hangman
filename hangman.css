@@ -27,6 +27,7 @@ body{
     background: transparent;
     outline: none;
     width:1vw;
+caret-color: transparent;
 }
 
 #guessingText{
