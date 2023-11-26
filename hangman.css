@@ -1,0 +1,119 @@
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#main{
+    visibility: visible;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title_text{
+    font-size: 8vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:8vh;
+    margin: 0;
+}
+
+#myInput{
+    user-select: none;
+    color: black;
+    border: transparent;
+    background: transparent;
+    outline: none;
+    width:1vw;
+}
+
+#guessingText{
+    width:10vw;
+}
+
+#guesses{
+    display: flex;
+    flex-direction:column;
+    width:70vw;
+    align-items: center;
+    font-size: 3vw;
+}
+
+#guesses > div{
+    display: flex;
+    flex-direction: row;
+}
+
+#guesses > div > p{
+    padding-right: 2vw;
+    padding-left: 2vw;
+    margin-top: 1vh;
+}
+
+#emptyField{
+    font-size: 5vw;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+#lose{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#loseText{
+    color:red;
+    font-size: 10vw;
+}
+
+#ans{
+    font-size: 5vw;
+}
+
+.loseScreen{
+    visibility: hidden;
+    display: none;
+    text-align: center;
+}
+
+#win{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#winText{
+    color:green;
+    font-size: 10vw;
+}
+
+.winScreen{
+    visibility: hidden;
+    display: none;
+    text-align: center;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20vw;
+    font-size: 1.5vw;
+    height: 5vh;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgba(255,255,255,0.1)
+}
+
+img {
+    width: 20vw;
+}

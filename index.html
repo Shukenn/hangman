@@ -1,0 +1,68 @@
+<html>
+    <link rel="stylesheet" type="text/css" href="hangman.css" />
+<body>
+    <div>
+        <p id="title_text">HANGMAN</p>
+    </div>
+
+    <div class = "loseScreen" id="lose">
+        <p class = "loseScreen" id="loseText">You Lose</p>
+        <button class = "loseScreen" id="playAgainLose">Play Again?</button>
+        <p class = "loseScreen">The correct word was: </p>
+        <p class = "loseScreen" id="ans"></p>
+    </div>
+
+    <div class = "winScreen" id="win">
+        <p class = "winScreen" id="winText">You Win</p>
+        <button class = "winScreen" id="playAgain">Play Again?</button>
+    </div>
+
+    <div id="main">
+        <div>
+            <img src="pngs/6.png" draggable="false"/>
+        </div>
+        <div>
+            <p id="emptyField"></p>
+        </div>
+        <div>
+            <input id="myInput" type="text">
+            <p id="guessingText"></p>
+        </div>
+        <div id="guesses">
+            <div class="inGuesses">
+                <p>A</p>
+                <p>B</p>
+                <p>C</p>
+                <p>D</p>
+                <p>E</p>
+                <p>F</p>
+                <p>G</p>
+                <p>H</p>
+                <p>I</p>
+                <p>J</p>
+                <p>K</p>
+                <p>L</p>
+                <p>M</p>
+                <p>N</p>
+            </div>
+            <div class="inGuesses">
+                <p>O</p>
+                <p>P</p>
+                <p>Q</p>
+                <p>R</p>
+                <p>S</p>
+                <p>T</p>
+                <p>U</p>
+                <p>V</p>
+                <p>W</p>
+                <p>X</p>
+                <p>Y</p>
+                <p>Z</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+    <script type="text/javascript" src="hangman.js"></script>
+</html>
