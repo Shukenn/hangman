@@ -14,16 +14,15 @@ body{
 #title_text{
     font-size: 8vh;
     align-items: center;
-    padding-top:8vh;
+    padding-top:5vh;
     margin: 0;
 }
 
 #byShuken{
     font-size: 3vh;
-    padding-top:3vh;
+    padding-top:2vh;
     align-items: center;
     margin: 0;
-
 }
 
 #myInput{
