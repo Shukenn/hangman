@@ -48,10 +48,8 @@ let guessList = [
     "ROBOT",
     "SANDWICH",
     "TURTLE",
-    "UFO",
     "VIOLET",
     "WAGON",
-    "XENON",
     "YOGURT",
     "ZIGZAG",
     "AIRPLANE",
@@ -79,13 +77,11 @@ let guessList = [
     "WINDMILL",
     "XYLOPHONE",
     "YOGURT",
-    "ZEPPELIN",
     "ANCHOR",
     "BREEZE",
     "COMET",
     "DAISY",
     "ECHO",
-    "FIZZ",
     "GALAXY",
     "HORIZON",
     "ILLUMINATE",
@@ -103,9 +99,7 @@ let guessList = [
     "UNIVERSE",
     "VORTEX",
     "WHISPER",
-    "XANADU",
-    "YONDER",
-    "ZENITH",
+    "YONDER"
   ];
 
 let toGuess = guessList[parseInt(Math.random()*guessList.length-1)];
