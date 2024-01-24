@@ -73,10 +73,14 @@ caret-color: transparent;
 #loseText{
     color:red;
     font-size: 10vw;
+    margin-bottom: 9vh;
+    margin-top: 8vh;
 }
 
 #ans{
     font-size: 5vw;
+    margin-top: 8vh;
+    margin-bottom: 8vh;
 }
 
 .loseScreen{
